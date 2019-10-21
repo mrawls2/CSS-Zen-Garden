@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Raleway;
+  src: url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,600,700&display=swap");
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	font-weight: 500;
+	color: black;
+	text-decoration: none;
+}
+
+abbr {
+	text-decoration: none;
+	font-weight: 400;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 50px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.summary {
+	font-style: 300;
+	font-size: 17px;
+}
+
+h2,
+.summary {
+	width: 253.743px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 40px;
+}
+
+p {
+	font-weight: 400;
+}
+
+.design-name {
+	font-weight: 700;
+}
+
+.designer-name {
+	font-weight: 300;
+	font-style: italic;
+}
