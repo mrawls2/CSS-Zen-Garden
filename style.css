@@ -128,11 +128,14 @@ div[role=main] {
 
 .viewall {
 	font-size: 50px;
-	width: 240px;
+	width: 220px;
 	height: 150px;
 	position: absolute;
-	left: 1155px;
-  	top: 1485px;
+	left: 1113px;
+  	top: 1400px;
+	padding: 88px 10px 70px 50px;
+	background-color: #3C675C;
+	opacity: 0.5;
 }
 
 .zen-resources {
@@ -194,15 +197,6 @@ div[role=main] {
 	left: 290px;
   	top: 1780px;
 	background-image: url(images/placeholder3.jpg);
-}
-
-.extra4 {
-	width: 285px;
-	height: 300px;
-	left: 1110px;
-	top: 1400px;
-	background-color: #3C675C;
-	opacity: 0.5;
 }
 
 .design-selection h3,
@@ -388,13 +382,6 @@ div[role=main] {
 			border: 1px solid black;
 		}
 
-		.extra4 {
-			width: 179px;
-			height: 251px;
-			left: 550px;
-			top: 1320px;
-		}
-
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -564,13 +551,6 @@ div[role=main] {
 	  	top: 1630px;
 	}
 
-	.extra4 {
-		width: 179px;
-		height: 251px;
-		left: 550px;
-		top: 1320px;
-	}
-
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -678,11 +658,12 @@ div[role=main] {
 	}
 
 	.viewall {
-		font-size: 50px;
-		width: 240px;
+		font-size: 40px;
+		width: 200px;
 		height: 150px;
-		left: 735px;
-		top: 1810px
+		left: 700px;
+		top: 1750px;
+		padding: 80px 0px 20px 53px;
 	}
 
 	.zen-resources {
@@ -739,10 +720,4 @@ div[role=main] {
 		border: 1px solid black;
 	}
 
-	.extra4 {
-		width: 250px;
-		height: 250px;
-		left: 703px;
-		top: 1750px;
-	}
 }
