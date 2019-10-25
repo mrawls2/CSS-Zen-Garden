@@ -14,8 +14,8 @@ a {
 }
 
 a:hover {
-	color: yellow;
 	font-weight: 700;
+	color: yellow;
 }
 
 abbr {
@@ -55,15 +55,15 @@ p {
 }
 
 .summary {
-	font-style: 300;
 	font-size: 17px;
+	font-style: 300;
 	width: 250px;
 }
 
 [role=banner],
 .summary {
-	margin-left: 250px;
 	width: 360px;
+	margin-left: 250px;
 }
 
 .preamble {
@@ -72,7 +72,7 @@ p {
 
 .preamble,
 div[role=main] {
-	width: 651.635px;
+	width: 600px;
 	margin-left: 700px;
 }
 
@@ -104,22 +104,22 @@ div[role=main] {
 }
 
 .design-selection {
-	background-color: #B8DEBE;
 	width: 1100px;
+	height: 300px;
 	position: absolute;
 	left: 292px;
   	top: 1400px;
-  	z-index: -1;
-	height: 300px;
+	z-index: -1;
+	background-color: #B8DEBE;
 }
 
 .design-selection li {
-	width: 120px;
 	font-size: 20px;
+	width: 120px;
 	margin-left: 20px;
-	background-color: white;
-	padding: 50px;
 	margin-top: 35px;
+	padding: 50px;
+	background-color: white;
 }
 
 .design-selection ul {
@@ -127,21 +127,21 @@ div[role=main] {
 }
 
 .viewall {
+	font-size: 50px;
+	width: 240px;
+	height: 150px;
 	position: absolute;
 	left: 1155px;
   	top: 1485px;
-	width: 240px;
-	height: 150px;
-	font-size: 50px;
 }
 
 .zen-resources {
-	background-color: #B8DEBE;
+	font-size: 14px;
 	width: 1100px;
 	margin-left: 250px;
 	margin-top: 100px;
 	padding: 23px;
-	font-size: 14px;
+	background-color: #B8DEBE;
 }
 
 .zen-resources li {
@@ -155,52 +155,52 @@ div[role=main] {
 }
 
 .zen-resources .zen-submit {
-	top: 3160px;
+	top: 3235px;
 }
 
 .zen-resources .zen-translations {
-	top: 3187px;
+	top: 3265px;
 }
 
 .extra1,
 .extra2,
 .extra3,
 .extra4 {
+	margin-bottom: 100px;
 	position: absolute;
 	z-index: -1;
 	background-repeat: no-repeat;
-	margin-bottom: 100px;
 }
 
 .extra1 {
-  	left: 740px;
-  	top: 205px;
-	width: 651.635px;
+	width: 651px;
 	height: 300px;
+	left: 740px;
+  	top: 205px;
 	background-image: url(images/placeholder1.jpg);
 }
 
 .extra2 {
-  	left: 290px;
-  	top: 625px;
 	width: 360px;
 	height: 700px;
+	left: 290px;
+  	top: 625px;
 	background-image: url(images/placeholder2.jpg);
 }
 
 .extra3 {
-  	left: 290px;
-  	top: 1780px;
 	width: 360px;
 	height: 1300px;
+	left: 290px;
+  	top: 1780px;
 	background-image: url(images/placeholder3.jpg);
 }
 
 .extra4 {
-	left: 1110px;
-	top: 1400px;
 	width: 285px;
 	height: 300px;
+	left: 1110px;
+	top: 1400px;
 	background-color: #3C675C;
 	opacity: 0.5;
 }
@@ -211,4 +211,538 @@ div[role=main] {
 .zen-resources h3,
 .design-archives li[class=next] {
 	display: none;
+}
+
+@media (max-width: 576px) {
+
+
+		a {
+			font-weight: 500;
+		}
+
+		a:hover {
+			font-weight: 700;
+		}
+
+		body {
+			margin: 45.946px 39.484px;
+			border: 1px solid white;
+		}
+
+		h1 {
+			width: 428.836px;
+			height: 49.79px;
+			margin-top: 40px;
+			border: 1px solid white;
+		}
+
+		h2 {
+			font-weight: 600;
+			font-size: 17px;
+			width: 250px;
+			border: 1px solid white;
+		}
+
+		h3 {
+			font-weight: 700;
+			font-size: 40px;
+			width: 530px;
+			height: 50px;
+			border: 1px solid white;
+		}
+
+		.preamble h3,
+		.explanation h3 {
+			height: 50px;
+		}
+
+		p {
+			font-weight: 200;
+			border: 1px solid white;
+		}
+
+		.summary {
+			font-size: 17px;
+			font-style: 300;
+			width: 250px;
+			border: 1px solid white;
+		}
+
+		[role=banner],
+		.summary {
+			width: 370px;
+			margin-left: 100px;
+		}
+
+		.preamble {
+			margin-top: 140px;
+		}
+
+		.preamble,
+		div[role=main] {
+			width: 530px;
+			margin-left: 100px;
+		}
+
+		.preamble,
+		.explanation,
+		.participation,
+		.benefits {
+			margin-bottom: 70px;
+		}
+
+		.participation {
+			margin-top: 480px;
+		}
+
+		.design-name {
+			font-weight: 700;
+		}
+
+		.designer-name {
+			font-weight: 300;
+		}
+
+		.design-selection {
+			width: 690px;
+			height: 250px;
+			left: 40px;
+		  	top: 1320px;
+		}
+
+		.design-selection li {
+			font-size: 15px;
+			width: 60px;
+			margin-right: 10px;
+			margin-top: 25px;
+			padding: 30px;
+		}
+
+		.design-selection nav {
+			margin-left: -15px;
+		}
+
+		.design-selection ul {
+			display: flex;
+		}
+
+		.viewall {
+			font-size: 30px;
+			width: 100px;
+			height: 150px;
+			left: 585px;
+			top: 1390px
+		}
+
+		.zen-resources {
+			font-size: 14px;
+			width: 643px;
+			margin-left: 0px;
+			margin-top: 120px;
+			padding: 23px;
+		}
+
+		.zen-resources li {
+			margin-bottom: 10px;
+		}
+
+		.zen-resources .zen-submit,
+		.zen-resources .zen-translations {
+			left: 350px;
+		}
+
+		.zen-resources .zen-submit {
+			top: 3242px;
+		}
+
+		.zen-resources .zen-translations {
+			top: 3269px;
+		}
+
+		.extra1,
+		.extra2,
+		.extra3,
+		.extra4 {
+			margin-bottom: 100px;
+		}
+
+		.extra1 {
+			width: 690px;
+			height: 350px;
+			left: 38px;
+		  	top: 45px;
+		}
+
+		.extra2 {
+			width: 40px;
+			height: 810px;
+			left: 40px;
+		  	top: 450px;
+		}
+
+		.extra3 {
+			width: 40px;
+			height: 1500px;
+			left: 40px;
+		  	top: 1630px;
+			border: 1px solid black;
+		}
+
+		.extra4 {
+			width: 179px;
+			height: 251px;
+			left: 550px;
+			top: 1320px;
+		}
+
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+	a {
+		font-weight: 500;
+	}
+
+	a:hover {
+		font-weight: 700;
+	}
+
+	body {
+		margin: 45.946px 39.484px;
+	}
+
+	h1 {
+		width: 428.836px;
+		height: 49.79px;
+		margin-top: 90px;
+	}
+
+	h2 {
+		font-weight: 600;
+		font-size: 17px;
+		width: 250px;
+	}
+
+	h3 {
+		font-weight: 700;
+		font-size: 40px;
+		width: 530px;
+		height: 50px;
+	}
+
+	.preamble h3,
+	.explanation h3 {
+		height: 50px;
+	}
+
+	p {
+		font-weight: 200;
+	}
+
+	.summary {
+		font-size: 17px;
+		font-style: 300;
+		width: 250px;
+	}
+
+	[role=banner],
+	.summary {
+		width: 370px;
+		margin-left: 100px;
+	}
+
+	.preamble {
+		margin-top: 180px;
+	}
+
+	.preamble,
+	div[role=main] {
+		width: 530px;
+		margin-left: 100px;
+	}
+
+	.preamble,
+	.explanation,
+	.participation,
+	.benefits {
+		margin-bottom: 70px;
+	}
+
+	.participation {
+		margin-top: 480px;
+	}
+
+	.design-name {
+		font-weight: 700;
+	}
+
+	.designer-name {
+		font-weight: 300;
+	}
+
+	.design-selection {
+		width: 690px;
+		height: 250px;
+		left: 40px;
+	  	top: 1320px;
+	}
+
+	.design-selection li {
+		font-size: 15px;
+		width: 60px;
+		margin-right: 10px;
+		margin-top: 25px;
+		padding: 30px;
+	}
+
+	.design-selection nav {
+		margin-left: -15px;
+	}
+
+	.design-selection ul {
+		display: flex;
+	}
+
+	.viewall {
+		font-size: 30px;
+		width: 100px;
+		height: 150px;
+		left: 585px;
+		top: 1390px
+	}
+
+	.zen-resources {
+		font-size: 14px;
+		width: 643px;
+		margin-left: 0px;
+		margin-top: 120px;
+		padding: 23px;
+	}
+
+	.zen-resources li {
+		margin-bottom: 10px;
+	}
+
+	.zen-resources .zen-submit,
+	.zen-resources .zen-translations {
+		left: 350px;
+	}
+
+	.zen-resources .zen-submit {
+		top: 3206px;
+	}
+
+	.zen-resources .zen-translations {
+		top: 3232px;
+	}
+
+	.extra1,
+	.extra2,
+	.extra3,
+	.extra4 {
+		margin-bottom: 100px;
+	}
+
+	.extra1 {
+		width: 690px;
+		height: 350px;
+		left: 38px;
+	  	top: 45px;
+	}
+
+	.extra2 {
+		width: 40px;
+		height: 810px;
+		left: 40px;
+	  	top: 450px;
+	}
+
+	.extra3 {
+		width: 40px;
+		height: 1500px;
+		left: 40px;
+	  	top: 1630px;
+	}
+
+	.extra4 {
+		width: 179px;
+		height: 251px;
+		left: 550px;
+		top: 1320px;
+	}
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+	a {
+		font-weight: 500;
+	}
+
+	a:hover {
+		font-weight: 700;
+	}
+
+	body {
+		margin: 45.946px 39.484px;
+	}
+
+	h1 {
+		font-weight: 700;
+		font-size: 50px;
+		width: 428.836px;
+		height: 49.79px;
+		margin-top: 107.227px;
+	}
+
+	h2 {
+		font-weight: 600;
+		font-size: 17px;
+		width: 250px;
+	}
+
+	h3 {
+		font-weight: 700;
+		font-size: 40px;
+		width: 370px;
+		height: 50px;
+	}
+
+	.preamble h3,
+	.explanation h3 {
+		height: 100px;
+	}
+
+	p {
+		font-weight: 200;
+	}
+
+	.summary {
+		font-size: 17px;
+		font-style: 300;
+		width: 250px;
+	}
+
+	[role=banner],
+	.summary {
+		width: 370px;
+		margin-left: 0px;
+	}
+
+	.preamble {
+		margin-top: 340px;
+	}
+
+	.preamble,
+	div[role=main] {
+		width: 370px;
+		margin-left: 460px;
+	}
+
+	.preamble,
+	.explanation,
+	.participation,
+	.benefits {
+		margin-bottom: 100px;
+	}
+
+	.participation {
+		margin-top: 500px;
+	}
+
+	.design-name {
+		font-weight: 700;
+	}
+
+	.designer-name {
+		font-weight: 300;
+	}
+
+	.design-selection {
+		width: 913px;
+		height: 250px;
+		left: 40px;
+	  	top: 1750px;
+	}
+
+	.design-selection li {
+		font-size: 20px;
+		width: 120px;
+		margin-left: 10px;
+		margin-top: 35px;
+		padding: 30px;
+	}
+
+	.design-selection ul {
+		display: flex;
+	}
+
+	.viewall {
+		font-size: 50px;
+		width: 240px;
+		height: 150px;
+		left: 735px;
+		top: 1810px
+	}
+
+	.zen-resources {
+		font-size: 14px;
+		width: 868px;
+		margin-left: 0px;
+		margin-top: 150px;
+		padding: 23px;
+	}
+
+	.zen-resources li {
+		margin-bottom: 10px;
+	}
+
+	.zen-resources .zen-submit,
+	.zen-resources .zen-translations {
+		left: 350px;
+	}
+
+	.zen-resources .zen-submit {
+		top: 4080px;
+	}
+
+	.zen-resources .zen-translations {
+		top: 4108px;
+	}
+
+	.extra1,
+	.extra2,
+	.extra3,
+	.extra4 {
+		margin-bottom: 100px;
+	}
+
+	.extra1 {
+		width: 450px;
+		height: 250px;
+		left: 500px;
+	  	top: 250px;
+	}
+
+	.extra2 {
+		width: 360px;
+		height: 1050px;
+		left: 40px;
+	  	top: 625px;
+	}
+
+	.extra3 {
+		width: 360px;
+		height: 1880px;
+		left: 40px;
+	  	top: 2075px;
+		border: 1px solid black;
+	}
+
+	.extra4 {
+		width: 250px;
+		height: 250px;
+		left: 703px;
+		top: 1750px;
+	}
 }
