@@ -209,7 +209,6 @@ div[role=main] {
 
 @media (max-width: 576px) {
 
-
 		a {
 			font-weight: 500;
 		}
@@ -224,8 +223,9 @@ div[role=main] {
 		}
 
 		h1 {
-			width: 428.836px;
-			height: 49.79px;
+			font-size: 30px;
+			width: 250px;
+			height: 35px;
 			margin-top: 40px;
 			border: 1px solid white;
 		}
@@ -239,9 +239,10 @@ div[role=main] {
 
 		h3 {
 			font-weight: 700;
-			font-size: 40px;
-			width: 530px;
-			height: 50px;
+			font-size: 17px;
+			width: 390px;
+			height: 1px;
+			margin-bottom: -15px;
 			border: 1px solid white;
 		}
 
@@ -252,11 +253,12 @@ div[role=main] {
 
 		p {
 			font-weight: 200;
+			font-size: 13px;
 			border: 1px solid white;
 		}
 
 		.summary {
-			font-size: 17px;
+			font-size: 13px;
 			font-style: 300;
 			width: 250px;
 			border: 1px solid white;
@@ -264,8 +266,8 @@ div[role=main] {
 
 		[role=banner],
 		.summary {
-			width: 370px;
-			margin-left: 100px;
+			width: 390px;
+			margin-left: 50px;
 		}
 
 		.preamble {
@@ -274,15 +276,15 @@ div[role=main] {
 
 		.preamble,
 		div[role=main] {
-			width: 530px;
-			margin-left: 100px;
+			width: 390px;
+			margin-left: 50px;
 		}
 
 		.preamble,
 		.explanation,
 		.participation,
 		.benefits {
-			margin-bottom: 70px;
+			margin-bottom: 50px;
 		}
 
 		.participation {
@@ -298,15 +300,15 @@ div[role=main] {
 		}
 
 		.design-selection {
-			width: 690px;
+			width: 495px;
 			height: 250px;
 			left: 40px;
-		  	top: 1320px;
+		  	top: 1060px;
 		}
 
 		.design-selection li {
 			font-size: 15px;
-			width: 60px;
+			width: 340px;
 			margin-right: 10px;
 			margin-top: 25px;
 			padding: 30px;
@@ -317,7 +319,7 @@ div[role=main] {
 		}
 
 		.design-selection ul {
-			display: flex;
+			display: inline-block;
 		}
 
 		.viewall {
@@ -325,7 +327,8 @@ div[role=main] {
 			width: 100px;
 			height: 150px;
 			left: 585px;
-			top: 1390px
+			top: 1300px;
+			padding: 80px 5px 20px 35px;
 		}
 
 		.zen-resources {
@@ -361,17 +364,17 @@ div[role=main] {
 		}
 
 		.extra1 {
-			width: 690px;
-			height: 350px;
+			width: 500px;
+			height: 300px;
 			left: 38px;
 		  	top: 45px;
 		}
 
 		.extra2 {
-			width: 40px;
-			height: 810px;
+			width: 20px;
+			height: 600px;
 			left: 40px;
-		  	top: 450px;
+		  	top: 400px;
 		}
 
 		.extra3 {
@@ -492,10 +495,11 @@ div[role=main] {
 
 	.viewall {
 		font-size: 30px;
-		width: 100px;
+		width: 140px;
 		height: 150px;
-		left: 585px;
-		top: 1390px
+		left: 550px;
+		top: 1320px;
+		padding: 80px 5px 20px 35px;
 	}
 
 	.zen-resources {
