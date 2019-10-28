@@ -17,6 +17,10 @@ a:hover {
 	color: #A3D8CC;
 }
 
+.summary a:hover {
+	color: #E9968E;
+}
+
 abbr {
 	text-decoration: none;
 }
@@ -744,7 +748,7 @@ footer a {
 
 	.design-selection li {
 		font-size: 20px;
-		width: 120px;
+		width: 105px;
 		margin-left: 10px;
 		margin-top: 8px;
 		padding: 40px 35px 35px 35px;
