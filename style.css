@@ -1,0 +1,848 @@
+@font-face {
+  font-family: Raleway;
+  src: url("https://fonts.googleapis.com/css?family=Raleway:200,300,300i,400,500,600,700&display=swap");
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #A3D8CC;
+}
+
+abbr {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 45.946px 39.484px;
+	background-color: #A3D8CC;
+	color: white;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 50px;
+	width: 428.836px;
+	height: 49.79px;
+	margin-top: 107.227px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 17px;
+	width: 250px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 40px;
+	width: 651.635px;
+	height: 29.735px;
+}
+
+p {
+	font-weight: 200;
+}
+
+.summary {
+	font-size: 17px;
+	font-style: 300;
+	width: 250px;
+}
+
+[role=banner],
+.summary {
+	width: 360px;
+	margin-left: 250px;
+}
+
+.preamble {
+	margin-top: 330px;
+}
+
+.preamble,
+div[role=main] {
+	width: 600px;
+	margin-left: 700px;
+}
+
+.preamble,
+.explanation,
+.participation,
+.benefits {
+	margin-bottom: 100px;
+}
+
+.participation {
+	margin-top: 550px;
+}
+
+.design-name {
+	font-weight: 700;
+	font-size: 22px;
+	text-align: center;
+}
+
+.designer-name {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.design-name,
+.designer-name,
+.design-selection li {
+	color: black;
+}
+
+.design-selection {
+	width: 1100px;
+	height: 300px;
+	position: absolute;
+	left: 292px;
+  	top: 1400px;
+	z-index: -1;
+	background-color: #EDCED4;
+}
+
+.design-selection li {
+	font-size: 18px;
+	width: 100px;
+	margin-left: 55px;
+	margin-top: 40px;
+	padding: 40px 35px 35px 35px;
+	float: left;
+	background-color: white;
+}
+
+.design-selection ul {
+	display: flex;
+}
+
+.viewall {
+	font-size: 50px;
+	width: 220px;
+	height: 150px;
+	position: absolute;
+	left: 1113px;
+  	top: 1400px;
+	padding: 88px 10px 62px 50px;
+	background-color: #E9968E;
+}
+
+.zen-resources {
+	font-size: 14px;
+	width: 1055px;
+	margin-left: 250px;
+	margin-top: 170px;
+	padding: 23px;
+	background-color: #E25D5D;
+}
+
+.zen-resources li {
+	margin-bottom: 10px;
+}
+
+.zen-resources .zen-submit,
+.zen-resources .zen-translations {
+	position: absolute;
+	left: 600px;
+}
+
+.zen-resources .zen-submit {
+	top: 3256px;
+}
+
+.zen-resources .zen-translations {
+	top: 3285px;
+}
+
+footer {
+	font-size: 14px;
+	width: 200px;
+	margin-left: 370px;
+	margin-top: 172px;
+	padding: 23px;
+	margin-bottom: 100px;
+	position: absolute;
+	z-index: 1;
+}
+
+footer a {
+	margin-right: 10px;
+}
+
+.extra1,
+.extra2,
+.extra3,
+.extra4,
+.extra5 {
+	margin-bottom: 100px;
+	position: absolute;
+	z-index: -2;
+}
+
+.extra1,
+.extra2,
+.extra3 {
+	background-color: #E25D5D;
+}
+
+.extra4,
+.extra5 {
+	background-color: #E9968E;
+}
+
+.extra2 {
+	width: 360px;
+	height: 700px;
+	left: 290px;
+  	top: 625px;
+}
+
+.extra3 {
+	width: 360px;
+	height: 1350px;
+	left: 290px;
+  	top: 1780px;
+}
+
+.extra4 {
+	width: 740px;
+	height: 700px;
+	left: 650px;
+  	top: 625px;
+}
+
+.extra5 {
+	width: 740px;
+	height: 1350px;
+	left: 650px;
+  	top: 1780px;
+}
+
+.extra6 {
+	width: 1100px;
+	height: 480px;
+	left: 300px;
+	top: 50px;
+	background-repeat: no-repeat;
+	background-image: url(images/header.png);
+	position: absolute;
+	z-index: -1;
+}
+
+.design-selection h3,
+.design-selection li:nth-last-child(-n+5),
+.design-archives h3,
+.zen-resources h3,
+.design-archives li[class=next] {
+	display: none;
+}
+
+@media (max-width: 576px) {
+
+		a {
+			font-weight: 500;
+		}
+
+		a:hover {
+			font-weight: 700;
+		}
+
+		body {
+			margin: 45.946px 39.484px;
+		}
+
+		h1 {
+			font-size: 30px;
+			width: 250px;
+			height: 35px;
+			margin-top: 90px;
+		}
+
+		h2 {
+			font-weight: 600;
+			font-size: 17px;
+			width: 250px;
+		}
+
+		h3 {
+			font-weight: 700;
+			font-size: 17px;
+			width: 390px;
+			height: 20px;
+			margin-bottom: 25px;
+		}
+
+		.preamble h3,
+		.explanation h3 {
+			height: 20px;
+		}
+
+		p {
+			font-weight: 200;
+			font-size: 13px;
+		}
+
+		.summary {
+			font-size: 13px;
+			font-style: 300;
+			width: 250px;
+		}
+
+		[role=banner],
+		.summary {
+			width: 390px;
+			margin-left: 50px;
+		}
+
+		.preamble {
+			margin-top: 185px;
+		}
+
+		.preamble,
+		div[role=main] {
+			width: 390px;
+			margin-left: 50px;
+		}
+
+		.preamble,
+		.explanation,
+		.participation,
+		.benefits {
+			margin-bottom: 50px;
+		}
+
+		.participation {
+			margin-top: 710px;
+		}
+
+		.design-name {
+			font-weight: 700;
+			font-size: 20px;
+		}
+
+		.designer-name {
+			font-weight: 300;
+		}
+
+		.design-selection {
+			width: 495px;
+			height: 400px;
+			left: 40px;
+		  	top: 1060px;
+		}
+
+		.design-selection li {
+			font-size: 15px;
+			width: 340px;
+			margin-right: 10px;
+			margin-top: 25px;
+			margin-left: 12px;
+			padding: 30px 50px 35px 30px;
+		}
+
+		.design-selection nav {
+			margin-left: -15px;
+		}
+
+		.design-selection ul {
+			display: inline-block;
+		}
+
+		.viewall {
+			font-size: 30px;
+			width: 445px;
+			height: 50px;
+			left: 40px;
+			top: 1460px;
+			padding: 20px 0px 20px 50px;
+		}
+
+		.zen-resources {
+			font-size: 14px;
+			width: 450px;
+			height: 150px;
+			margin-left: 0px;
+			margin-top: 120px;
+			padding: 23px;
+		}
+
+		.zen-resources li {
+			margin-bottom: 10px;
+		}
+
+		.zen-resources .zen-submit,
+		.zen-resources .zen-translations {
+			left: 350px;
+		}
+
+		.zen-resources .zen-submit {
+			top: 2836px;
+		}
+
+		.zen-resources .zen-translations {
+			top: 2863px;
+		}
+
+		footer {
+			margin-left: -10px;
+			margin-top: 230px;
+			width: 250px;
+		}
+
+		.extra1,
+		.extra2,
+		.extra3,
+		.extra4 {
+			margin-bottom: 100px;
+		}
+
+		.extra1 {
+			width: 498px;
+			height: 280px;
+			left: 39px;
+		  	top: 46px;
+		}
+
+		.extra2 {
+			width: 20px;
+			height: 600px;
+			left: 40px;
+		  	top: 400px;
+		}
+
+		.extra3 {
+			width: 20px;
+			height: 1100px;
+			left: 40px;
+		  	top: 1620px;
+		}
+
+		.extra4 {
+			width: 475px;
+			height: 600px;
+			left: 60px;
+			top: 400px;
+		}
+
+		.extra5 {
+			width: 475px;
+			height: 1100px;
+			left: 60px;
+			top: 1620px;
+		}
+
+		.extra6 {
+			display: none;
+		}
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+	a {
+		font-weight: 500;
+	}
+
+	a:hover {
+		font-weight: 700;
+	}
+
+	body {
+		margin: 45.946px 39.484px;
+	}
+
+	h1 {
+		width: 428.836px;
+		height: 49.79px;
+		margin-top: 90px;
+	}
+
+	h2 {
+		font-weight: 600;
+		font-size: 17px;
+		width: 250px;
+	}
+
+	h3 {
+		font-weight: 700;
+		font-size: 40px;
+		width: 530px;
+		height: 50px;
+	}
+
+	.preamble h3,
+	.explanation h3 {
+		height: 50px;
+	}
+
+	p {
+		font-weight: 200;
+	}
+
+	.summary {
+		font-size: 17px;
+		font-style: 300;
+		width: 250px;
+	}
+
+	[role=banner],
+	.summary {
+		width: 370px;
+		margin-left: 100px;
+	}
+
+	.preamble {
+		margin-top: 190px;
+	}
+
+	.preamble,
+	div[role=main] {
+		width: 530px;
+		margin-left: 100px;
+	}
+
+	.preamble,
+	.explanation,
+	.participation,
+	.benefits {
+		margin-bottom: 70px;
+	}
+
+	.participation {
+		margin-top: 480px;
+	}
+
+	.design-name {
+		font-weight: 700;
+		font-size: 20px;
+	}
+
+	.designer-name {
+		font-weight: 300;
+	}
+
+	.design-selection {
+		width: 690px;
+		height: 250px;
+		left: 40px;
+	  	top: 1320px;
+	}
+
+	.design-selection li {
+		font-size: 15px;
+		width: 50px;
+		margin-right: -5px;
+		margin-top: 15px;
+		margin-left: 20px;
+		padding: 30px 50px 35px 30px;
+	}
+
+	.design-selection nav {
+		margin-left: -15px;
+	}
+
+	.design-selection ul {
+		display: flex;
+	}
+
+	.viewall {
+		font-size: 30px;
+		width: 140px;
+		height: 150px;
+		left: 550px;
+		top: 1320px;
+		padding: 80px 5px 20px 35px;
+	}
+
+	.zen-resources {
+		font-size: 14px;
+		width: 665px;
+		margin-left: 0px;
+		margin-top: 120px;
+		padding: 23px 10px;
+	}
+
+	.zen-resources li {
+		margin-bottom: 10px;
+	}
+
+	.zen-resources .zen-submit,
+	.zen-resources .zen-translations {
+		left: 350px;
+	}
+
+	.zen-resources .zen-submit {
+		top: 3184px;
+	}
+
+	.zen-resources .zen-translations {
+		top: 3210px;
+	}
+
+	footer {
+		font-size: 14px;
+		width: 220px;
+		margin-left: 187px;
+		margin-top: 175px;
+		padding: 23px;
+		margin-bottom: 100px;
+	}
+
+	footer a {
+		margin-right: 10px;
+	}
+
+	.extra1,
+	.extra2,
+	.extra3,
+	.extra4 {
+		margin-bottom: 100px;
+	}
+
+	.extra1 {
+		width: 680px;
+		height: 350px;
+		left: 38px;
+	  	top: 45px;
+	}
+
+	.extra2 {
+		width: 40px;
+		height: 810px;
+		left: 40px;
+	  	top: 450px;
+	}
+
+	.extra3 {
+		width: 40px;
+		height: 1470px;
+		left: 40px;
+	  	top: 1630px;
+	}
+
+	.extra4 {
+		width: 645px;
+		height: 810px;
+		left: 80px;
+	  	top: 450px;
+	}
+
+	.extra5 {
+		width: 645px;
+		height: 1470px;
+		left: 80px;
+	  	top: 1630px;
+	}
+
+	.extra6 {
+		display: none;
+	}
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+	a {
+		font-weight: 500;
+	}
+
+	a:hover {
+		font-weight: 700;
+	}
+
+	body {
+		margin: 45.946px 39.484px;
+	}
+
+	h1 {
+		font-weight: 700;
+		font-size: 50px;
+		width: 428.836px;
+		height: 49.79px;
+		margin-top: 107.227px;
+	}
+
+	h2 {
+		font-weight: 600;
+		font-size: 17px;
+		width: 250px;
+	}
+
+	h3 {
+		font-weight: 700;
+		font-size: 40px;
+		width: 370px;
+		height: 50px;
+	}
+
+	.preamble h3,
+	.explanation h3 {
+		height: 100px;
+	}
+
+	p {
+		font-weight: 200;
+	}
+
+	.summary {
+		font-size: 17px;
+		font-style: 300;
+		width: 250px;
+	}
+
+	[role=banner],
+	.summary {
+		width: 370px;
+		margin-left: 0px;
+	}
+
+	.preamble {
+		margin-top: 340px;
+	}
+
+	.preamble,
+	div[role=main] {
+		width: 370px;
+		margin-left: 460px;
+	}
+
+	.preamble,
+	.explanation,
+	.participation,
+	.benefits {
+		margin-bottom: 100px;
+	}
+
+	.participation {
+		margin-top: 520px;
+	}
+
+	.design-name {
+		font-weight: 700;
+	}
+
+	.designer-name {
+		font-weight: 300;
+	}
+
+	.design-selection {
+		width: 913px;
+		height: 250px;
+		left: 40px;
+	  	top: 1750px;
+	}
+
+	.design-selection li {
+		font-size: 20px;
+		width: 120px;
+		margin-left: 10px;
+		margin-top: 8px;
+		padding: 40px 35px 35px 35px;
+	}
+
+	.design-selection ul {
+		display: flex;
+	}
+
+	.viewall {
+		font-size: 40px;
+		width: 200px;
+		height: 150px;
+		left: 700px;
+		top: 1750px;
+		padding: 80px 0px 20px 53px;
+	}
+
+	.zen-resources {
+		font-size: 14px;
+		width: 868px;
+		margin-left: 0px;
+		margin-top: 150px;
+		padding: 23px;
+	}
+
+	.zen-resources li {
+		margin-bottom: 10px;
+	}
+
+	.zen-resources .zen-submit,
+	.zen-resources .zen-translations {
+		left: 350px;
+	}
+
+	.zen-resources .zen-submit {
+		top: 4065px;
+	}
+
+	.zen-resources .zen-translations {
+		top: 4092px;
+	}
+
+	footer {
+		font-size: 14px;
+		width: 220px;
+		margin-left: 170px;
+		margin-top: 150px;
+		padding: 23px;
+		margin-bottom: 100px;
+		position: absolute;
+		z-index: 1;
+	}
+
+	footer a {
+		margin-right: 10px;
+	}
+
+	.extra1,
+	.extra2,
+	.extra3,
+	.extra4 {
+		margin-bottom: 100px;
+	}
+
+	.extra2 {
+		width: 360px;
+		height: 1050px;
+		left: 40px;
+	  	top: 625px;
+	}
+
+	.extra3 {
+		width: 360px;
+		height: 1880px;
+		left: 40px;
+	  	top: 2075px;
+	}
+
+	.extra4 {
+		width: 550px;
+		height: 1050px;
+		left: 400px;
+	  	top: 625px;
+	}
+
+	.extra5 {
+		width: 550px;
+		height: 1880px;
+		left: 400px;
+	  	top: 2075px;
+	}
+
+	.extra6 {
+		width: 895px;
+		height: 480px;
+		left: 55px;
+		top: 50px;
+	}
+
+}
